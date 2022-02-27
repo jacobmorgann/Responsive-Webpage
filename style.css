@@ -1,0 +1,107 @@
+* {
+    background-color: #37BDDE;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: 10px;
+    background-color: #45F531;
+    font-size: 17px;
+    position: fixed;
+    padding: 25px 20px;
+}
+
+.wrapper {
+    position: relative;
+    width: 75%;
+    height: 200px;
+    top: 85px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+.boxAlt {
+    display: flex;
+    width: 75%;
+    height: 200px;
+    background-color: #79d9e6;
+    border: 5px solid hsl(187, 74%, 22%);
+    position: relative;
+    left: 20%;
+    margin: 20px;
+}
+
+
+footer {
+    width: 100%;
+    height: 75px;
+    background-color: #E0140D;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    padding: 50px 0px 0px 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 600px;
+    top: 100px;
+    left: 100px;
+}
+
+.box {
+    display: flex;
+    flex: 0 0 200px;
+    width: 50px;
+    height: 25px;
+    top: 85px;
+    flex-shrink: 0;
+    background-color:teal;
+    border: 2px solid #A762D9;
+    margin: 5px;
+} 
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    position: relative;
+    top: 75px;
+}
+
+.splash {
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .box {
+        width: 100%;
+        display: block;
+    }
+    .boxAlt {
+        flex-direction: row;
+    }
+}
+@media screen and (min-width:800px) {
+    .box {
+        width: 250px;
+        margin: 8px;
+        flex-wrap: wrap;
+    }
+    .boxAlt {
+        display: inline;
+        margin: 8px;
+}
+}
