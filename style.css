@@ -101,6 +101,7 @@ h1 {
         flex-wrap: wrap;
     }
     .boxAlt {
+        
         display: inline;
         margin: 8px;
 }
